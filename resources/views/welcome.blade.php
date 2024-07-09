@@ -10,7 +10,9 @@
 </head>
 
 <body>
-
+    @foreach ($trains as $train)
+        <p>{{ $train }}</p>
+    @endforeach
 </body>
 
 </html>
